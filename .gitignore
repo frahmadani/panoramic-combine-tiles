@@ -1,5 +1,6 @@
 .DS_Store
 Thumbs.db
+.vscode/
 
 .nvm-version
 node_modules
@@ -11,3 +12,4 @@ example/combined.png
 images/
 
 stitched/
+final/
