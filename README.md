@@ -9,4 +9,4 @@ Tool for combining tiled cubemap panoramic images into equirectangular images.
 4. Run the tool using `node index.js`
 5. Find the stitched images on `stitched` folder
 
-This tool relies heavily on [combine-tile](https://github.com/derhuerst/combine-tiles) library by [derhuers](https://github.com/derhuerst) and [sharp](https://www.npmjs.com/package/sharp)
+This tool relies heavily on [combine-tile](https://github.com/derhuerst/combine-tiles) library by [derhuers](https://github.com/derhuerst) and [sharp](https://www.npmjs.com/package/sharp) library.
