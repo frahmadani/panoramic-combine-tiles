@@ -2,7 +2,7 @@ const sharp = require('sharp')
 const {join} = require('path')
 const fs = require('fs')
 
-exports.resize = (dir, idx) => {
+module.exports = (dir, idx) => {
 	let originalImage = join(dir, '/stitched/', `temp_${idx+1}.png`)
 	let outputImage = join(dir, '/stitched/', `${idx+1}.png`)
 	

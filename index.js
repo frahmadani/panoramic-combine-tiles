@@ -39,7 +39,7 @@ tile_dirs.forEach((dir, index) => {
 	combineTiles(tiles, size, size, dest)
 	.then(() => {
 		console.log(`temp_${index+1}.png is created`)
-		resize.resize(__dirname, index)
+		resize(__dirname, index)
 	})
 	.catch((err) => {
 		console.error(err)
